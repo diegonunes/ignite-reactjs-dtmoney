@@ -2,7 +2,7 @@ import { Summary } from '../Summary';
 import { TransactionsTable } from '../TransactionsTable';
 import { Container } from './styles';
 
-const Dashboard = () => {
+export const Dashboard = () => {
   return (
     <Container>
       <Summary />
@@ -10,4 +10,3 @@ const Dashboard = () => {
     </Container>
   );
 };
-export default Dashboard;
